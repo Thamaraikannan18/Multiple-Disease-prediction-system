@@ -93,7 +93,7 @@ if LOGGED_IN == True:
 
 
 
-    Heart Disease Prediction Page
+   # Heart Disease Prediction Page
     if (selected == 'Heart Disease Prediction'):
         
         # page title
