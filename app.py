@@ -148,7 +148,7 @@ if LOGGED_IN == True:
         # creating a button for Prediction
         
         if st.button('Heart Disease Test Result'):
-            st.title([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])
+          
             heart_prediction = heart_disease_model.predict([[age, sex, cp, trestbps, chol, fbs, restecg,thalach,exang,oldpeak,slope,ca,thal]])                          
             
             if (heart_prediction[0] == 1):
