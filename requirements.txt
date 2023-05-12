@@ -7,4 +7,4 @@ streamlit-login-auth-ui==0.2.0
 streamlit-lottie==0.0.3
 streamlit-option-menu==0.3.2
 argon2-cffi
-altair
+altair.vegalite.v4
